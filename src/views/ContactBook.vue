@@ -96,7 +96,7 @@ export default {
     },
     activeContact() {
         if (this.activeIndex < 0) return null;
-        return this.contacts[this.activeIndex];
+        return this.filteredContacts[this.activeIndex];
     },
     filteredContactsCount() {
         return this.filteredContacts.length;
